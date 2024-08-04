@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.college-name {
+    font-size: 72px; /* Make the text very large */
+    font-weight: bold; /* Make the text bold */
+    color: #4CAF50; /* Set a good color (green in this case) */
+    text-align: center; /* Center align the text */
+    padding: 20px; /* Add some padding for spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow for effect */
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+.header {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.college-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Left Frame Styles */
+.left-frame {
+    width: 200px;
+    background-color: #343a40;
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-frame a {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+/* Right Frame Styles */
+.right-frame {
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"],
+button[type="reset"],
+button.cart-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover,
+button.cart-button:hover {
+    background-color: #0056b3;
+}
+
+/* Book Catalogue Styles */
+.book {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.book img {
+    height: 100px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.book-info {
+    flex-grow: 1;
+}
+
+.book-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.book-info p {
+    margin: 5px 0;
+}
+
+/* Cart Styles */
+.cart-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.cart-item h3 {
+    margin: 0 0 10px 0;
+}
+
+.cart-item p {
+    margin: 5px 0;
+}
+
+/* Checkout Button */
+button[type="checkout"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button[type="checkout"]:hover {
+    background-color: #218838;
+}
